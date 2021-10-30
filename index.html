@@ -1,0 +1,28 @@
+<body><p><h1><font color="white">Click the button key in inputs square </p>
+
+<button onclick="myFunction()">calculate</button>
+
+<p id="u"></p>
+<p id="o"></p>
+<p id="i"></p>
+<script>
+function myFunction() {
+  
+var length = prompt("Enter a whole number for the length of your square.");
+
+   
+var erimeter = (4 * length);
+var aea= length * length ;
+var vlume= length * length * length;
+
+ document.getElementById("u").innerHTML =
+        "Area of square.:"  + aea;
+ document.getElementById("o").innerHTML =
+        "perimeter of square.:"  + erimeter ;
+ document.getElementById("i").innerHTML =
+        "volume of square prism:"  + vlume;
+}
+</script></h1>
+<style>
+body { background: linear-gradient(#FF1493,#9400D3,#FF1493,#FFFF00)}
+</style>
